@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-moralis1 {
+  background-color: #09182a;
+}
+
+.bg-moralis-search {
+  background-color: #06111d;
+}
