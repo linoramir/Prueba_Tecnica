@@ -1,4 +1,4 @@
-import { BubbleContainer, NavBar, SideBar } from "./components";
+import { BubbleContainer, NavBar, SideBar, Paged } from "./components";
 const App = () => {
   return (
     <>
@@ -7,6 +7,7 @@ const App = () => {
         <div className="w-3/4">
           <NavBar />
           <BubbleContainer />
+          <Paged />
         </div>
       </div>
     </>
