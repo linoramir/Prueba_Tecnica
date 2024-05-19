@@ -1,6 +1,6 @@
 const SideBar = () => {
   return (
-    <div className="w-1/4 border-solid border-2 border-sky-500 H-Full bg-moralis-sidebar px-8">
+    <div className="w-1/4 H-Full bg-moralis-sidebar px-8">
       <button className="w-full border-solid border-2 border-transparent text-nowrap text-slate-200 px-8 py-8">
         Jaja Moralis pirata
       </button>

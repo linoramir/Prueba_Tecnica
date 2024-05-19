@@ -1,5 +1,5 @@
 const Bubble = () => {
-  return <div>bublle</div>;
+  return <div>Bubble</div>;
 };
 
 export default Bubble;
