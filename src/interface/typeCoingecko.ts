@@ -47,3 +47,10 @@ export enum Currency {
   Eth = "eth",
   Usd = "usd",
 }
+export interface BubbleData {
+  index: number;
+  key: string;
+  image: string;
+  value: number;
+  tendencia: "positivo" | "negativo";
+}

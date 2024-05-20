@@ -1,12 +1,13 @@
 import getCryptoList from "../../service/coinGeckoApi";
 import { useState, useEffect } from "react";
 import Bubble from "../bubble";
+import { BubbleData } from "../../interface/typeCoingecko";
 
 const BubbleContainer = () => {
-  const [criptoList, setCriptoList] = useState([]);
+  const [criptoList, setCriptoList] = useState<BubbleData[]>([]);
   useEffect(() => {
     const criptoData = async () => {
-      const data = await getCryptoList();
+      const data: BubbleData[] = (await getCryptoList()) as BubbleData[];
       console.log("bubble container", { data });
       setCriptoList(data);
     };
