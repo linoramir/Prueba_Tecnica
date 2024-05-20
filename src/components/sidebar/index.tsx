@@ -1,9 +1,10 @@
+import Logo from "../../assets/Moralis-LightBG-Logo.svg";
 const SideBar = () => {
   return (
     <div className="w-1/4 H-Full bg-moralis-sidebar px-8">
-      <button className="w-full border-solid border-2 border-transparent text-nowrap text-slate-200 px-8 py-8">
-        Jaja Moralis pirata
-      </button>
+      <div className="w-full border-solid border-2 border-transparent text-nowrap text-slate-200 px-8 py-8">
+        <img src={Logo} alt="Logo moralis" height="3vh" />
+      </div>
       <nav>
         <button className="w-60 border-solid border-2 border-transparent transition ease-in-out delay-50 hover:bg-sky-900 duration-150 rounded-lg text-slate-300 px-2 py-2">
           Market Overview ↓
